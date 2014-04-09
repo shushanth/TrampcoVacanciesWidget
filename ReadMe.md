@@ -5,5 +5,5 @@ Reading the JSON (the content is in portuguese) content of the vacancies and upd
 done it as test for front-end.
 Frameworks and Technologies used:
 
-Backbone.js, Require.js ,HTML5 Canvas, Saas.
+Backbone.js, Require.js, Handlebar.js ,HTML5 Canvas, Saas.
 
