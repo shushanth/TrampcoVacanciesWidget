@@ -1,0 +1,81 @@
+body{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma;
+  background-color: #625453}
+.canvas{position: absolute; top: 10px;}
+.logoImg{position:absolute;top:75px;width:120px;left:45px;}
+.main{margin:0 auto;
+      width: 500px;
+      margin-top: 150px; }
+  .header {
+  background-color: #241f1c;
+  color: white;
+  width: 502px;
+  height: 52px;
+  margin-bottom: -200px; }
+  .header .headerContent {
+    padding: 16px;
+    padding-left: 40px;}
+
+.Maincontainer {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 200px;
+  height: 300px;
+  overflow-y: scroll; }
+  .Maincontainer P {
+    margin: 0px 0px;
+    min-height: 48px;
+    padding-left: 40px;
+    font-size: 15px;
+    padding-top: 25px;
+    background-color: #36322c;
+    color: white;
+    
+    /*border-left: 5px solid #52c1c4;*/ }
+  .Maincontainer aside {
+    background-color: #36322c;
+    color: white;
+    margin-top: -25px;
+    font-size: 10px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    /*border-bottom: 2px solid #403c36;;*/
+    /*border-left: 5px solid #52c1c4;*/ }
+    .Maincontainer a{
+      background-color: #36322c;
+      color: white;
+      margin-top: -35px;
+      margin-left: 395px;
+      font-size: 12px;
+      padding-bottom: 15px;
+      display: inherit;
+      text-decoration: none;
+      /*border-bottom: 1px solid #403c36;*/}
+    .Maincontainer  a span{
+      border-bottom: 1px dotted white;}
+    .Maincontainer div{
+    border-bottom:1px solid #403c36; }
+
+.footer {
+  background-color: #241f1c;
+  color: white;
+  width: 502px;
+  height: 52px;
+  margin-top: -20px;}
+  .footer .headerContent {
+    padding-left: 40px;
+    padding: 16px;}
+
+::-webkit-scrollbar {
+  width: 8px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #544f4d; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dbdbdb; }
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #dbdbdb; }

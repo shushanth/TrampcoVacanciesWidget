@@ -1,0 +1,124 @@
+$center:0 auto;
+$scroll:scroll;
+$borderRadius:10px;
+$minHeight:100px;
+$paddingAll:20px;
+$zeroPX:0px;
+$centerText:center;
+$backgroundBlack:black;
+$absolute:absolute;
+$colorWhite:#ffffff;
+$headfootColor:#241f1c;
+$paddingMinHeight:50px;
+$PTagbgcolor:#36322c;
+$pborderColor:#403c36;
+$scrollbarThumbColor:#dbdbdb;
+$scrollbarTrackColor:#544f4d;
+$borderleftMainColor:#52c1c4;
+
+.header{
+	
+	background-color:$headfootColor;
+	position:$absolute;
+	color:$colorWhite;
+	top: 148px;
+	left: 432px;
+	width:502px;
+
+
+
+	.headerContent{
+
+		text-align:$centerText;
+
+	}
+
+}
+
+
+.Maincontainer{
+	
+		
+		width: 500px;
+		margin: $center;
+		margin-top: 200px;
+		height: 300px;
+		overflow-y:scroll;
+		
+
+	
+		P{
+			margin:$zeroPX $zeroPX;
+			min-height:$paddingMinHeight;
+			text-align:$centerText;
+			font-size: 18px;
+			padding-top: 25px;
+			background-color:$PTagbgcolor;
+			color:$colorWhite;
+			border-bottom:1px solid $pborderColor;
+			border-left:5px solid $borderleftMainColor;
+
+		}
+
+		aside{
+
+		background-color:$PTagbgcolor;
+		color:$colorWhite;
+		margin-top: -25px;
+		border-bottom:1px solid $pborderColor;
+		font-size: 13px;
+		padding-left: 40px;
+		padding-bottom: 15px;
+		border-left:5px solid $borderleftMainColor;
+			
+
+
+		}
+
+}
+
+
+
+.footer{
+	
+	background-color:$headfootColor;
+	position:$absolute;
+	color:$colorWhite;
+	top: 500px;
+	left: 432px;
+	width:502px;
+
+
+	.headerContent{
+
+		text-align:$centerText;
+
+	}
+
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+ }
+ 
+/* Track */
+::-webkit-scrollbar-track {
+   	background-color:$scrollbarTrackColor;
+   
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    
+    background: $scrollbarThumbColor;
+        
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: $scrollbarThumbColor;
+}
+
+
+

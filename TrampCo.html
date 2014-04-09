@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+	<title>TrampCo</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/expenditure.css">
+
+</head>
+
+<body>
+<canvas class="canvas" width="200" height="150"></canvas>
+<img src="images/tramLogo.png" style="position:absolute;top:75px;width:120px;left:45px;" />
+
+<article class="main">
+
+
+<!-- handlebar template -->
+
+<script type="text/x-handlebars-template" id="employees">
+
+
+<header class="header">
+
+<p class="headerContent">VAGAS : TRAMPOS.CO & LOREM IPSUM SID</p>
+
+</header>
+
+	
+<article  class="Maincontainer">
+
+
+{{#each this}}
+
+<section>
+		<p>{{ name }}</p>
+		<aside>{{company_name}} - {{published_at}} </aside>
+		<a href="{{permalink }}"><span>permalink</span></a>
+		<div style="border-bottom:1px solid #403c36;"></div>
+	</section>
+
+
+{{/each}}
+
+</article>
+
+<footer class="footer">
+
+<p class="headerContent"><img src="images/trampco.jpg"/></p>
+
+</footer>
+
+</script>
+</article>
+
+</body>
+
+<!-- require.js -->
+<script data-main="js/main" src="common/require.js"></script>
+
